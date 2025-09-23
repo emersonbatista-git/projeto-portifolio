@@ -88,6 +88,7 @@ section#ficha {
   background-color: var(--fundo-card);
   padding: 20px;
   border-radius: 8px;
+  grid-column: 2;
 }
 
 section#ficha img.foto {
@@ -157,15 +158,16 @@ article h2 {
   margin-bottom: 10px;
 }
 
-.videocontainer {
+article#video .video-container {
   position: relative;
   width: 100%;
   margin: auto;
   aspect-ratio: 16/9;
+  
 
 }
 
-.videocontainer iframe {
+.video-container iframe {
   position: absolute;
   top: 0;
   left: 0;
